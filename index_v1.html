@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Oracle Apex Links</title>
+    <style type="text/css">
+* {
+  box-sizing: border-radius;
+  font-family: 'Rubik', sans-serif; }
+
+.container {
+  border: 1px solid black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  display: grid;
+  place-items: center;
+  background-color: #128CFC; }
+
+.items {
+  width: 300px;
+  background: #fffffe;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-top: 10px solid #0B5AA2; }
+
+.items-head p {
+  padding: 5px 20px;
+  margin: 10px;
+  color: #0B5AA2;
+  font-weight: bold;
+  font-size: 20px; }
+
+.items-head hr {
+  width: 20%;
+  margin: 0px 30px;
+  border: 1px solid #0B5AA2; }
+
+.items-body {
+  padding: 10px;
+  margin: 10px;
+  display: grid;
+  grid-gap: 10px; }
+
+.items-body-content {
+  padding: 10px;
+  padding-right: 0px;
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+  font-size: 13px;
+  grid-gap: 10px;
+  border: 1px solid transparent;
+  cursor: pointer; }
+
+.items-body-content:hover {
+  border-radius: 15px;
+  border: 1px solid #0B5AA2; }
+
+.items-body-content i {
+  align-self: center;
+  font-size: 15px;
+  color: #0B5AA2;
+  font-weight: bold;
+  animation: icon 1.5s infinite forwards; }
+
+@keyframes icon {
+  0%, 100% {
+    transform: translate(0px); }
+  50% {
+    transform: translate(3px); } }      
+    </style>
+  </head>
+  <body>
+    <main>
+        <h1>Welcome to My Website</h1>  
+        <p>This is my new website which is hosted on GitHub Pages!</p>
+      <ul>
+        <li><a href="https://traust.com/blog/email-all-users-in-an-oracle-apex-report/" target="new">Email All Users in an Oracle APEX Report</a></li>
+        <li><a href="https://apex.oracle.com/en/learn/videos/" target="new">Videos @ apex.oracle.com</a></li>
+        <li><a href="https://apex.oracle.com/shortcuts" target="new">Oracle Apex Shortcuts</a></li>
+      </ul>
+      
+<div class="container">
+  <div class="items">
+    <div class="items-head">
+      <p>UX DESIGN</p>
+      <hr>
+    </div>
+    
+    <div class="items-body">
+      <div class="items-body-content">
+        <span>Web Usabilty Testing</span>
+        <i class="fa fa-angle-right"></i>
+      </div>
+      <div class="items-body-content">
+        <span>Design of Everyday Things</span>
+        <i class="fa fa-angle-right"></i>
+      </div>
+      <div class="items-body-content">
+        <span>Practical Empathy: For Collaboration & Creativity in Your Work</span>
+        <i class="fa fa-angle-right"></i>
+      </div>
+      <div class="items-body-content">
+        <span>About Face: The Essentials of Interaction Design</span>
+        <i class="fa fa-angle-right"></i>
+      </div>
+    </div>
+  </div>
+</div>      
+    </main>
+  </body>
+</html>
